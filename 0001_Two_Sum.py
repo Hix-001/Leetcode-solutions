@@ -1,3 +1,4 @@
+# LeetCode 1: Find two indices whose values sum to the target using a hash map.
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         seen = {}
