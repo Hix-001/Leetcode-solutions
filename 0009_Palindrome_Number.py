@@ -1,3 +1,4 @@
+#Easy
 # LeetCode 9: Determine if an integer is a palindrome without string conversion in O(1) space.
 class Solution:
     def isPalindrome(self, x: int) -> bool:

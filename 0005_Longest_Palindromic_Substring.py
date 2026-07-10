@@ -1,4 +1,4 @@
-#medium 
+#Medium
 # LeetCode 5: Find the longest palindromic substring using an optimized greedy slicing technique.
 class Solution:
     def longestPalindrome(self, s: str) -> str:

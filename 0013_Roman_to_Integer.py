@@ -1,4 +1,4 @@
-#easy
+#Easy
 # LeetCode 13: Convert a Roman numeral to an integer using right-to-left traversal in O(N) time.
 class Solution:
     def romanToInt(self, s: str) -> int:

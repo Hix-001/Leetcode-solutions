@@ -1,3 +1,4 @@
+#Medium
 # LeetCode 3: Find the longest substring without repeating characters using an optimized sliding window and hash map.
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:

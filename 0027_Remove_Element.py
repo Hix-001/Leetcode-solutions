@@ -1,4 +1,5 @@
 #07/07/2026
+#Easy
 # LeetCode 27: Remove all occurrences of a value in-place using a reader/writer two-pointer approach.
 from typing import List
 
