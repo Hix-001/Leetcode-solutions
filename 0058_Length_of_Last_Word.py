@@ -1,5 +1,6 @@
-0058_Length_of_Last_Word.py
-
+#14/07/2026
+#EASY
+# LeetCode 58: Find the length of the last word by reading the string backwards.
 
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
