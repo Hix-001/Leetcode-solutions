@@ -1,5 +1,5 @@
 #16/07/2026
-#Easy
+#Medium
 # LeetCode 34: Find First and Last Position of Element in Sorted Array using two modified Binary Searches.
 class Solution:
     def searchRange(self, nums: list[int], target: int) -> list[int]:
