@@ -1,1 +1,12 @@
-0066_Plus_One.py
+#19/07/2026
+#Easy
+#LeetCode 66: Plus One using basic right-to-left array traversal to simulate manual addition.
+class Solution:
+    def plusOne(self, digits: list[int]) -> list[int]:
+        for i in range(len(digits) - 1, -1, -1):
+            if digits[i] < 9:
+                digits[i] += 1
+                return digits
+            else:
+                digits[i] = 0
+        return [1] + digits
