@@ -9,3 +9,8 @@ class Solution:
         while n % 2 == 0:
             n //= 2
         return n == 1
+
+#using bin() counting
+class Solution:
+    def isPowerOfTwo(self, n: int) -> bool:
+        return n > 0 and bin(n).count('1') == 1
