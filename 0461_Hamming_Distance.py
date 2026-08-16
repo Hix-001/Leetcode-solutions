@@ -11,3 +11,4 @@ class Solution:
             xor_result >>= 1
             
         return distance
+    
