@@ -28,3 +28,8 @@ class Solution:
             quotient = -quotient
             
         return min(max(-2147483648, quotient), 2147483647)
+
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.divide(10, 3))
+    print(sol.divide(7, -3))
